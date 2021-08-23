@@ -14,6 +14,11 @@ router.get("/", (req, res, next) => {
   });
 });
 
+/*
+KURULUMLAR
+DATA // HERHANGİ BİR DB // MİGRATİON -> SCHEMA // SEED DATA // DB CONFİG // ROUTE -> index.js
+*/
+
 router.get("/:id", (req, res, next) => {
   const id = req.params.id;
   Category.getCategoryById(id)

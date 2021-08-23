@@ -1,0 +1,6 @@
+PG_USER= rgkgagyhmbtejm 
+PG_PASSWORD= 6926269d2e00997dec2aaf6dc26f2b835b5087026585949aa5c710641c2f40ad 
+PG_HOST= ec2-44-196-170-156.compute-1.amazonaws.com 
+PG_PORT= 5432 
+PG_DATABASE= dvt9ppubaf2bd 
+NODE_ENV=development

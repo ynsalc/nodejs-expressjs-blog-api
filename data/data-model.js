@@ -81,7 +81,7 @@ function registerUser(newUser) {
     .insert(newUser, "id")
     .then(([id]) => {
       return db("user").where({ id }).first();
-    });
+  });
 }
 
 function loginUser(user) {
